@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    margin: 100px auto;
+    width: 70%;
+    background-color:blanchedalmond;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#welcome, #user, #text {
+    font-size: 1.5rem;
+}
+
+#password  {
+    margin-top: 15px;
+    color: darkblue;
+}
+
