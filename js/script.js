@@ -29,10 +29,9 @@ document.getElementById("user").innerHTML = ` ${varName},`;
 
 document.getElementById("text").innerHTML = "ti consiglio questa password:";
 
-document.getElementById("password").innerHTML = `
-            <span style="color:${varColor}">
-                ${password}
-            </span>`;
+document.getElementById("password").innerHTML = `${password}`;
+
+document.getElementById("password").style.color= `${varColor}`;
 
 
 
